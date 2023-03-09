@@ -25,7 +25,7 @@ function CheckoutProduct({id, image, title, price, rating}){
                     ))}
                     {/* underscore is for convention if it has nothing put underscore */}
                 </div>
-                <button onClick={removeFromBasket}>Remove from Basket</button>
+                <button onClick={removeFromBasket}>Remove from the Basket</button>
             </div>
         </div>
     )
